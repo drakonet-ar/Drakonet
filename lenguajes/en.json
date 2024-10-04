@@ -1,0 +1,51 @@
+{
+    "en": {
+        
+        "menu": {
+            "Componentes": "Component",
+            "Maquetas": "MockUp",
+            "Activos": "Assets",
+            "Blogs": "Blogs",
+            "Recursos": "Resources",
+            "Cursos": "Courses",
+            "Proposito": "About Us",
+            "Contacto": "Contact Us"
+        },
+
+        "form": {
+            "Contacto": "Contact",
+            "Brevedad": "We cotact you ASAP.",
+            "FAQ":"<a href='../pages/faq.html'>FAQ</a>"
+        },
+        
+        "FAQS": {
+            "Pregunta1": "I want to see the source codes of the videos<i class=\"material-icons right\">arrow_drop_down</i><p class=\"invisible-faqs\">If you pay the subscription of 1 dollar per month, you have access to all the code repositories of all the videos.</p>",
+            "Pregunta2": "What can I find in the Blog section?<i class=\"material-icons right\">arrow_drop_down</i><p class=\"invisible-faqs\">Here you will find articles about technoligies written by Lean Bellone.</p>"
+        },
+
+
+        "Proposito": {
+            "TituloProposito": "About DrakoNet",
+            "ParrafoProposito": "Welcome to DrakoNet, the place where creativity and code meet. We are a platform dedicated to making learning web development accessible, dynamic and, above all, practical. Here you will find everything you need to take your skills to the next level, from web programming courses designed for all levels to exclusive resources such as images, code snippets ready to copy and paste, and video tutorials that will guide you step by step in your projects.<br>At DrakoNet, we believe that knowledge should be shared and applied. That's why, in addition to the courses, we have created a Blog full of articles written by me, Lean Bellone, web developer and designer, where I share the latest trends, tips and tricks of the development world. You will also find personally selected articles, which I consider valuable and inspiring for those who are on this exciting journey of programming.<br>Whether you are just starting out or you are already an expert, DrakoNet is the place where learning has never been so easy... or so exciting.<br>Join our community and start creating today!"
+        },
+
+
+        "Titulo": {
+            "Titulo": "Welcome to"
+        },
+
+        "Cursos": {
+            "Titulo1": "The fastest way to <span class=\"gradient-text\">learn coding</span>",
+            "Titulo2": "BEGINNERS START HERE",
+            "Titulo3": "HTML & CSS Complete Course (+ Flexbox & Grid)",
+            "Parrafo1": "No prior coding experience required.",
+            "Parrafo2": "Learn the basics of HTML & CSS to create amazing websites",
+            "Parrafo3": "Learn responsive web design with Flexbox and CSS Grid",
+            "Parrafo4": "6h video content with coding exercises, quizzes and projects",
+            "Boton1": "Get the Course",
+            "Boton2": "Download Resources",
+            "Titulo4": "What you will learn in the course",
+            "Boton3": "Get the course"
+        }  
+    }
+}

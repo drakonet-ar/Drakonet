@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DrakoNet</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/7efe79b6-e630-4ced-a6f8-0bea31f70efa.jpeg" type="image/png">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/mediaqwerys.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <!--<div class="icono-wpp"><a href="#" class="fa fa-whatsapp"></a></div>-->
+    <!--------------------------------------------------------------------------------------------------------------------------->
+    <!--                                            SECCION HEADER                                                             -->
+    <!--------------------------------------------------------------------------------------------------------------------------->
+    <header>
+        <!-- Dropdown Structure -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a class="waves-effect" data-section="menu" data-value="Componentes"href="./componentes.html">Componentes</a></li>
+            <li class="divider"></li>
+            <li><a class="disabled-link" data-section="menu" data-value="Maquetas">Maquetas</a></li>
+            <li class="divider"></li>
+            <li><a class="disabled-link" data-section="menu" data-value="Activos">Activos</a></li>
+            <li class="divider"></li>
+            <li><a class="disabled-link" data-section="menu" data-value="Blog">Blog</a></li>
+        </ul>
+
+
+        <ul id="slide-out" class="sidenav">
+            <li><img class="logo-header2" src="../assets/img/logo.png" alt="Logo de la marca"></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a href="#" class="waves-effect">Opcion1</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a href="#" class="waves-effect">Opcion2</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a href="#n" class="waves-effect">Opcion3</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a href="#vender" class="waves-effect">Opcion4</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a href="#" class="waves-effect"><i class="material-icons left mapicon">location_on</i>Opcion5</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+        </ul>
+
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large hamburguesa"><i
+                        class="material-icons" >menu</i></a>
+                <a id="logo-nav" href="../index.html"><img class="logo-header" src="../assets/logo.png"
+                        alt="Logo de la marca"></a>
+                <ul id="nav-wrapper-ul" class="hide-on-med-and-down">
+                    <li><a data-section="menu" data-value="Recursos" class="dropdown-trigger" data-target="dropdown1">Recursos<i
+                                class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a data-section="menu" data-value="Cursos" href="../pages/curso.html" target="_blank"><!--<i class="material-icons left mapicon">location_on</i>-->Cursos</a>
+                    </li>
+                    <li><a id="botonproposito" data-section="menu" data-value="Proposito"><!--<i class="material-icons left mapicon">location_on</i>-->Proposito</a></li>
+                    <li><a data-section="menu" data-value="Contacto" href="#"><!--<i class="material-icons left mapicon">location_on</i>-->Contacto</a>
+                    </li>
+                </ul>
+                <div id="contenedor-idiomas" class="contenedor-idiomas">
+                    <div class="flags">
+                        <div class="boton-desplazable-flags" id="boton-desplazable-flags">
+                            <i class="indicador-flags"></i>
+                        </div>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <!--------------------------------------------------------------------------------------------------------------------------->
+    <!--                                            SECCION MAIN                                                               -->
+    <!--------------------------------------------------------------------------------------------------------------------------->
+
+    <main class="main-contacto">
+        <div class="absolute">
+            <div class="absolute inset-0 justify-center">
+                <div class="bg-shape1 bg-teal opacty-50 bg-blur"></div>
+                <div class="bg-shape2 bg-purple opacty-50 bg-blur"></div>
+                <div class="bg-shape6 bg-purple opacty-50 bg-blur"></div>
+                <div class="bg-shape3 bg-coral opacty-50 bg-blur"></div>
+                <div class="bg-shape4 bg-purple opacty-50 bg-blur"></div>
+                <div class="bg-shape5 bg-turquesa opacty-50 bg-blur"></div>
+                
+            </div>
+        </div>
+        <section>
+            <div class="box">
+                <div class="container2">
+                    <div class="form2">
+                        <h2 data-section="form" data-value="Contacto">Contacto</h2>
+                        <form id="miFormulario" action="https://formspree.io/f/xgvewovd" method="POST">
+                            <div class="inputBx">
+                                <input id="input-contacto1" name="nombre" data-section="menu" type="text" placeholder="Nombre completo" required>
+                            </div>
+                            <div class="inputBx">
+                                <input id="input-contacto2" name="mail" type="email" placeholder="Mail" required>
+                            </div>
+                            <div class="inputBx">
+                                <textarea id="input-contacto3" name="message" id="" placeholder="Escribe tu mensaje..." required></textarea>
+                            </div>
+                            <div class="inputBx">
+                                <input type="submit" value="Enviar">
+                            </div>
+                            <p data-section="form" data-value="Brevedad" class="text-form">Respondemos a la brevedad</p>
+                            <p data-section="form" data-value="FAQ" class="text-form">Tienes dudas? <a href="./faq.html">Click Aqui</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+
+    <!--------------------------------------------------------------------------------------------------------------------------->
+    <!--                                            SECCION FOOTER                                                             -->
+    <!--------------------------------------------------------------------------------------------------------------------------->
+    <footer class="pie-paginacontacto">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="../index.html">
+                        <img class="logo-footer" src="../assets/logo.png" alt="Logo de la marca">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <div class="contenedor-datos-empreza">
+                    <p><i class="material-icons left">email</i>Contacto@drakonet.com.ar</p>
+                    <p><i class="material-icons left">local_phone</i>Tel. (55) 1234 5678</p>
+                    <p><i class="material-icons left">location_on</i>Calle Cualquiera 1234,</p>
+                    <p class="ultimo-texto">Cualquier Lugar, CP.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-envelope"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>DrakoNet</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <!------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--                                            SECCION SCRIPTS                                                                            -->
+    <!------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <script>
+        // Función para desplazar la ventana hacia arriba
+        function scrollToTop() {
+            setTimeout(() => {
+                window.scrollTo(0, 0); // Desplaza la ventana a la parte superior
+            }, 100); // Espera 100 milisegundos
+        }
+        
+        // Ejecutar la función al cargar la página
+        window.onload = scrollToTop;
+        </script>
+        <script>
+                document.getElementById('botonproposito').addEventListener('click', function(event) {
+                    event.preventDefault();
+                    window.location.href = '../index.html?proposito=true';
+                });
+        </script>
+    <script src="../js/header.js"></script>
+    <script src="../js/idioma-contacto.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.9.0/dist/sweetalert2.all.min.js"></script>
+    <script src="../js/form.js"></script>
+
+
+
+    <!------------------------------------------------------------------------------------------------------------------------------------------->
+</body>
+
+</html>
